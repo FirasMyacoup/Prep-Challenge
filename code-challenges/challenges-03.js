@@ -110,15 +110,16 @@ const targetArrayInGivenOrder = (numsArr, indexArr) => {
 //
 
 
-  function incrementarray (arr) {
-     arr = [];
+  function arrInc (arr) {
+    let newArray=[];
     for (var i = 0; i < arr.length; i++) {
         newArray.push(arr[i] + 10);
     };
     return newArray;
 };
-var newArray = incrementarray ([20, 54, 89, 41]);
-  return newArray;
+
+
+
 
 // -------------------------------------------------------------------------------------------------------
 
