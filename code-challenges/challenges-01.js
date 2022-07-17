@@ -38,10 +38,11 @@ const sumNums = (arr) => {
   sum=0
   let arr= [20, '234', 'car', 41, 20, 'chair'];
   for(var i=0 ;i < arr.length ;i++){
-    if (arr[i]!='string' ) {
+    if (arr[i]>0||arr[i<100] ) {
       sum +=arr[i];
 
     }
+    else{}
     }
     return sum;
   };
