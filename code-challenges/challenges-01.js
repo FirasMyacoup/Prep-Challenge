@@ -33,18 +33,11 @@ const findMax = (arr) => {
 //
 // Input: [20, '234', 'car', 41, 20, 'chair']
 // Output: 81
-const sumNums = (arr) => {
-  let sum;
-  sum=0
-  let arr= [20, '234', 'car', 41, 20, 'chair'];
-  for(var i=0 ;i < arr.length ;i++){
-    if (arr[i]>0||arr[i<100] ) {
-      sum +=arr[i];
-
-    }
-    else{}
-    }
-    return sum;
+const sumNums = (arr) => {    let sum;
+  // write your code here
+      arr=[20, '234', 'car', 41, 20, 'chair'];
+      for(let i=0; arr.length-1;i++){    arr[i] += sum;  }
+   return sum;
   };
   
   
